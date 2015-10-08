@@ -1,4 +1,4 @@
-nashorn-flux-rendering-example
+isomorphic-flux-javascript-nashorn-example
 ===============================
 
 Example of server-side rendering of flux hello world application using Nashorn.
