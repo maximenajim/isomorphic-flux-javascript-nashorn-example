@@ -1,0 +1,1 @@
+var Application = require("expose?Application!./main.js");

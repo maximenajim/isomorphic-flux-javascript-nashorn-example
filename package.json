@@ -1,0 +1,28 @@
+{
+  "name": "nashorn-rendering-example",
+  "version": "1.0.0",
+  "description": "Nashorn Flux Rendering Example",
+  "scripts": {
+    "build": "webpack --config webpack-client.config.js && webpack --config webpack-server.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maximenajim/nashorn-flux-rendering-example.git"
+  },
+  "author": "Maxime Najim",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^5.8.25",
+    "babel-loader": "^5.3.2",
+    "webpack": "^1.12.2"
+  },
+  "dependencies": {
+    "expose-loader": "^0.7.0",
+    "flux": "2.0.1",
+    "htmlescape": "1.0.0",
+    "morgan": "1.5.2",
+    "react": "^0.13.3",
+    "route-builder": "1.0.0",
+    "underscore": "1.8.2"
+  }
+}
