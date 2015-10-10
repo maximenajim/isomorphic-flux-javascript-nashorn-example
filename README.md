@@ -32,3 +32,7 @@ mvn spring-boot:run
 ```
 
 Then go to: http://localhost:8080/
+
+To turn off server-side rendering, pass _ssr_ parameter as _false_:
+
+http://localhost:8080/?ssr=false
