@@ -10,6 +10,6 @@ module.exports = {
 
   ROUTES: [
     [Pages.HOME, '/'],
-    [Pages.HELLO_WORLD, '/helloworld']
+    [Pages.HELLO_NASHORN, '/hellonashorn']
   ]
 };

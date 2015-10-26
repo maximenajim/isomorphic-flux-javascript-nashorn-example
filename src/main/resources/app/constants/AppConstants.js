@@ -10,7 +10,7 @@ module.exports = {
 
   Pages: keyMirror({
     HOME: null,
-    HELLO_WORLD: null,
+    HELLO_NASHORN: null,
     NOT_FOUND: null
   }),
 

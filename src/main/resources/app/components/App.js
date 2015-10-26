@@ -9,7 +9,7 @@ var Pages = AppConstants.Pages;
 function getPageComponent(page) {
   switch (page) {
     case Pages.HOME:        return require('./Home.jsx');
-    case Pages.HELLO_WORLD: return require('./HelloWorld.jsx');
+    case Pages.HELLO_NASHORN: return require('./HelloNashorn.jsx');
     case Pages.NOT_FOUND:   return require('./NotFound');
     default:
       throw new Error('Missing "Pages.' + page + '"');
